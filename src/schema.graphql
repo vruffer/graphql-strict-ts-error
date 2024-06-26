@@ -1,0 +1,11 @@
+schema {
+  query: Query
+}
+
+type Query {
+  getMe(id: String): Me
+}
+
+type Me {
+  id: String
+}
